@@ -1,0 +1,268 @@
+/*dark 45  44 56
+violet 179 167 216
+lavander 236 231 245
+*/
+
+body{
+  font-family: lato;
+  background-color: rgb(236, 231, 245);
+}
+
+.header{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.options{
+  margin-right: 20px;
+  text-align: justify;
+  color: rgb(45, 44, 56);
+  padding-top:10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+  cursor: pointer;
+}
+
+.options:hover{
+text-decoration: underline;
+}
+
+.content-page-one{
+  margin-top: 130px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap-reverse;
+  color: rgb(45, 44, 56);
+}
+
+.text-content-one{
+  max-width: 600px;
+  min-width: 300px;
+}
+
+.subtitle-one{
+  font-size: 20px;
+  font-family: Lato;
+  margin-top: 20px;
+}
+
+.but-one{
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(236, 231, 245);
+  color: rgb(45, 44, 56);
+  transition: background-color 0.30s, color 0.30s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  margin-right: 10px;
+  margin-top: 15px;
+  margin-bottom:15px;
+
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(45, 44, 56);
+}
+
+.but-one:hover{
+  background-color: rgb(45, 44, 56);
+  color: rgb(236, 231, 245);
+  transition: background-color 0.30s, color 0.30s;
+}
+
+.but-two{
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(45, 44, 56);
+  color: rgb(236, 231, 245);
+  transition: background-color 0.30s, border-color 0.30s;
+
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border-radius: 25px;
+
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(45, 44, 56);
+}
+
+.but-two:hover{
+  background-color: rgb(236, 231, 245);
+  color: rgb(45, 44, 56);
+  transition: background-color 0.30s, color 0.30s;
+}
+
+.profile{
+  border-radius: 10000px;
+  width: 270px;
+  height: 270px;
+  margin-right: 100px;
+}
+
+.divisao{
+  background-color: rgb(45, 44, 56);
+  display: flex;
+  justify-content: center;
+  margin-top: 90px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.content-div{
+  margin-right: 30px;
+  color: rgb(236, 231, 245);
+  cursor: pointer;
+}
+
+.intro-page-two{
+  text-align: center;
+  margin-top: 150px;
+  color: rgb(45, 44, 56);
+}
+
+.title-page-two{
+  font-size: 40px;
+}
+
+.subtitle-page-two{
+  font-size: 20px;
+}
+
+.containers-page-two{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  column-gap: 40px;
+
+  max-width: 960px;
+  margin-left: 180px;
+  margin-right: 180px;;
+  margin-top: 60px;
+
+  color: rgb(236, 231, 245);
+}
+
+.container-all-page-two{
+  background-color: rgb(45, 44, 56);
+  width: 250px;
+  padding: 20px;
+
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(45, 44, 56);
+  border-radius: 8px;
+
+  transition: opacity 0.30s;
+  cursor: pointer;
+  transition: background-color 0.30s, color 0.30s;
+  text-align: justify;
+}
+
+.container-all-page-two:hover{
+  background-color: transparent;
+  color: rgb(45, 44, 56);
+  transition: background-color 0.30s, color 0.30s;
+}
+
+.intro-page-three{
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(45, 44, 56);
+}
+
+.title-page-three{
+  font-size: 40px;
+}
+
+.subtitle-page-three{
+  font-size: 20px;
+}
+
+.containers-page-three{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 30px;
+  max-width: 960px;
+
+  margin-left: 180px;
+  margin-right: 180px;;
+  margin-top: 30px;
+  color: rgb(45, 44, 56);
+}
+
+.container-all-page-three{
+  width: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(45, 44, 56);
+  border-radius: 20px;
+  padding: 20px;
+  cursor: pointer;
+  transition: background-color 0.30s, color 0.30s;
+  text-align: justify;
+}
+
+.container-all-page-three:hover{
+  background-color: rgb(45, 44, 56);
+  color: rgb(236, 231, 245);
+  transition: background-color 0.30s, color 0.30s;
+}
+
+.intro-page-four{
+  text-align: center;
+  margin-top: 200px;
+  color: rgb(45, 44, 56);
+}
+
+.title-page-four{
+  font-size: 40px;
+}
+
+.subtitle-page-four{
+  font-size: 20px;
+}
+
+.containers-page-four{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
+  column-gap: 30px;
+  max-width: 960px;
+
+  margin-left: 180px;
+  margin-right: 180px;;
+  margin-top: 30px;
+  margin-bottom: 200px;
+  color: rgb(45, 44, 56);
+}
+
+.container-all-page-four{
+  width: 250px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(45, 44, 56);
+  border-radius: 20px;
+  padding: 20px;
+  text-align: justify;
+  cursor: pointer;
+  transition: background-color 0.30s, color 0.30s;
+}
+
+.container-all-page-four:hover{
+  background-color: rgb(45, 44, 56);
+  color: rgb(236, 231, 245);
+  transition: background-color 0.30s, color 0.30s;
+}
